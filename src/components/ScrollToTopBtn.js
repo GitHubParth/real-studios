@@ -5,7 +5,7 @@ const ScrollToTopBtn = () => {
 	return (
 		<button
 			id="scrollToTopBtn"
-			className="fixed bottom-5 right-5 z-50 bg-secondary text-primary p-3 rounded-full drop-shadow-lg"
+			className="fixed bottom-5 right-5 z-30 bg-secondary text-primary p-3 rounded-full drop-shadow-lg"
 			onClick={() => {
 				window.scrollTo({
 					top: 0,

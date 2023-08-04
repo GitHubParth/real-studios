@@ -70,7 +70,7 @@ const Header = () => {
 					data-aos="zoom-in-left"
 					className="md:flex hidden relative group/ctabtn"
 					target="_black"
-					to="https://wa.me/9773238641?text=Hi%20there!%20I'm%20Parth,%20and%20we're%20looking%20for%20a%20photographer%20for%20an%20upcoming%20photo%20shoot.%20Are%20you%20available?"
+					to="https://wa.me/9773238641?text=Hi%20there!%20We're%20looking%20for%20a%20photographer%20for%20our%20upcoming%20photo%20shoot.%20Are%20you%20available?"
 				>
 					<button className="bg-primary z-10 w-full button-2 lg:p-3 p-2 lg:px-5 px-4 text-white relative group-hover/ctabtn:-skew-x-12 transition-all duration-300">
 						Book Now
