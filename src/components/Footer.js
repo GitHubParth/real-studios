@@ -125,7 +125,7 @@ const Footer = () => {
 					/>
 				</div>
 				<p className="font-Inter w-full text-center text-lg text-primary px-8 mt-6">
-					&copy; 2023 . Real Studios. All rights reserved
+					&copy; 2023 . Real Studios. All rights reserved.
 				</p>
 			</div>
 		</footer>
