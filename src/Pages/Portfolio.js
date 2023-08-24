@@ -43,7 +43,7 @@ const Portfolio = () => {
 					</div>
 					<div className="sm:w-1/2 w-full sm:px-0 px-6 sm:h-full h-full overflow-hidden">
 						<img
-							src="/images/about-image.jpg"
+							src="https://ik.imagekit.io/parthpadhiar/images/about-image.jpg"
 							alt="Jainil Jani"
 							className="group-hover/about:scale-125 max-h-[500px] w-full h-full object-top object-cover transition-all duration-1000"
 						/>

@@ -44,7 +44,7 @@ code {
 
 /* Contact Background Image CSS */
 .contact-bg {
-  background: url('../public/images/contact.jpeg') no-repeat;
+  background: url('https://ik.imagekit.io/parthpadhiar/images/contact.jpeg') no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

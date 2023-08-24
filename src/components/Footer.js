@@ -11,7 +11,7 @@ const Footer = () => {
 		<footer>
 			<div className="h-[450px] bg-[#becfc4] relative group/spmoments overflow-hidden">
 				<img
-					src="/images/footer-image.jpg"
+					src="https://ik.imagekit.io/parthpadhiar/images/footer-image.jpg"
 					alt=""
 					className="h-full w-full object-cover object-center group-hover/spmoments:scale-125 transition-all duration-1000"
 				/>
@@ -61,7 +61,7 @@ const Footer = () => {
 				<div className="flex flex-col-reverse items-center justify-center w-full gap-6">
 					<div className="flex flex-col items-center justify-center font-Inter text-primary">
 						<img
-							src="/images/logo-big.png"
+							src="https://ik.imagekit.io/parthpadhiar/images/logo-big.png"
 							alt=""
 							className="w-64 mb-2"
 						/>

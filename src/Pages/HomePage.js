@@ -37,7 +37,7 @@ const HomePage = () => {
 					muted
 					autoPlay
 				>
-					<source src="/video/hero-video.mp4" />
+					<source src="https://github.com/GitHubParth/real-studios/blob/main/public/video/hero-video.mp4?raw=true" />
 				</video>
 
 				{/* Info */}
@@ -107,7 +107,7 @@ const HomePage = () => {
 						className="sm:w-1/2 w-full sm:px-0 px-6 sm:h-full h-auto overflow-hidden"
 					>
 						<img
-							src="/images/about-image.jpg"
+							src="https://ik.imagekit.io/parthpadhiar/images/about-image.jpg"
 							alt="Jainil Jani"
 							className="group-hover/about:scale-125 sm:max-h-[350px] md:max-h-[400px] lg:max-h-[500px] w-full h-full object-top object-cover transition-all duration-1000"
 						/>
@@ -145,7 +145,7 @@ const HomePage = () => {
 									I have successfully captured over 3000 weddings, earning a prestigious Guinness World Record achievement.
 								</p>
 							</div>
-							<img src="/images/guinness-img.png" className="md:w-[90%] mx-auto w-[200px] md:h-[90%] h-[200px] absolute top-[50%] md:translate-x-0 translate-x-[-50%] md:top-[5%] left-[50%] md:translate-y-0 translate-y-[-50%] md:left-[5%] transition-all duration-300 group-hover/guinness:scale-100 scale-0 object-cover object-center" alt="Guinness World Record for Real Studios" />
+							<img src="https://ik.imagekit.io/parthpadhiar/images/guinness-img.png" className="md:w-[90%] mx-auto w-[200px] md:h-[90%] h-[200px] absolute top-[50%] md:translate-x-0 translate-x-[-50%] md:top-[5%] left-[50%] md:translate-y-0 translate-y-[-50%] md:left-[5%] transition-all duration-300 group-hover/guinness:scale-100 scale-0 object-cover object-center" alt="Guinness World Record for Real Studios" />
 						</div>
 						{/* Clients */}
 						<div data-aos="zoom-in-left" data-aos-offset="200" className="xl:w-[350px] lg:w-[300px] sm:w-[400px] sm:mx-0 mx-auto w-full bg-[#D4E8DB] hover:bg-primary group/ach3 lg:h-56 md:h-48 h-fit md:py-0 py-8 px-6 md:px-4 flex items-center justify-center flex-col gap-2 shadow-lg !transition-all !duration-300 hover:!scale-105 md:hover:-translate-y-4 hover:-translate-y-2  shadow-secondary/30" >
