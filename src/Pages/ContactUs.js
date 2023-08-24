@@ -111,7 +111,7 @@ const ContactUs = () => {
 
 			{/* Main Section */}
 			<section className="bg-[#becfc4] w-screen h-full overflow-x-hidden pb-20">
-				<div className="contact-bg sm:h-screen h-[500px] sm:bg-center bg-center w-full flex items-center justify-center relative overflow-hidden">
+				<div className="contact-bg sm:h-screen h-screen sm:bg-center bg-center w-full flex items-center justify-center relative overflow-hidden">
 					<h2
 						data-aos="zoom-in-up"
 						data-aos-delay="200"
@@ -235,8 +235,8 @@ const ContactUs = () => {
 								</label>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
+									width="22"
+									height="22"
 									fill="currentColor"
 									className={`bi bi-envelope absolute top-4 left-3 ${
 										emailError
@@ -245,7 +245,7 @@ const ContactUs = () => {
 									}`}
 									viewBox="0 0 16 16"
 								>
-									<path d="M0 4a2 2 0 0 1 2-2h22a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h22a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+									<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
 								</svg>
 								{emailError ? (
 									<p className="flex items-center gap-1 pt-1 text-sm font-medium text-red-600">
