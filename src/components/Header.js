@@ -16,7 +16,7 @@ const Header = () => {
 					className="w-auto flex items-center justify-center"
 				>
 					<img
-						src="/images/logo.png"
+						src="https://ik.imagekit.io/parthpadhiar/images/logo.png"
 						alt=""
 						className="lg:w-20 w-12 h-12 object-contain bg-white"
 					/>
