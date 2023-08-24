@@ -2,6 +2,9 @@ import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 import { reviews, imgCollection, projects } from "../data";
 
 // Import Swiper React components
@@ -22,6 +25,9 @@ const HomePage = () => {
 
 	return (
 		<>
+
+			<Header />
+
 			{/* Hero Section */}
 			<section className="min-h-screen h-full w-full relative font-Inter z-10">
 				{/* Video */}
@@ -383,6 +389,9 @@ const HomePage = () => {
 					</Swiper>
 				</div>
 			</section>
+
+			{/* Footer */}
+			<Footer />
 
 			{/* Scroll Top Button */}
 			<ScrollToTopBtn />

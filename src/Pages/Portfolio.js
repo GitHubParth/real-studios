@@ -1,6 +1,9 @@
 import { React, useState } from "react";
 import { imagesList, categories } from "../data";
 
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 // Components
 import ScrollToTopBtn from "../components/ScrollToTopBtn";
 
@@ -17,6 +20,9 @@ const Portfolio = () => {
 
 	return (
 		<>
+			{/* Header */}
+			<Header />
+
 			{/* Portfolio Section */}
 			<section
 				className="h-full overflow-hidden w-full bg-white"
@@ -80,6 +86,9 @@ const Portfolio = () => {
 					))}
 				</div>
 			</section>
+
+			{/* Footer */}
+			<Footer />
 
 			{/* Scroll Top Button */}
 			<ScrollToTopBtn />
