@@ -16,9 +16,9 @@ const Footer = () => {
 					className="h-full w-full object-cover object-center group-hover/spmoments:scale-125 transition-all duration-1000"
 				/>
 				<div className="bg-halfTransparent absolute h-full w-full left-0 top-0 flex flex-col gap-10 items-center justify-center px-10">
-					<h1 className="font-PlayFair sm:text-[3.5rem] text-[2.5rem] leading-[3rem] sm:leading-[4rem] text-white text-center">
+					<h2 className="font-PlayFair sm:text-[3.5rem] text-[2.5rem] leading-[3rem] sm:leading-[4rem] text-white text-center">
 						Let's create your special moments
-					</h1>
+					</h2>
 					<div className="flex items-center justify-center gap-10 w-full">
 						<Link
 							target="_blank"

@@ -112,13 +112,13 @@ const ContactUs = () => {
 			{/* Main Section */}
 			<section className="bg-[#becfc4] w-screen h-full overflow-x-hidden pb-20">
 				<div className="contact-bg sm:h-screen h-[500px] sm:bg-center bg-center w-full flex items-center justify-center relative overflow-hidden">
-					<h1
+					<h2
 						data-aos="zoom-in-up"
 						data-aos-delay="200"
 						className="font-bold md:text-[7vw] text-[4rem] text-center px-4 leading-[1] absolute text-secondary z-10 font-Inter"
 					>
 						Contact Us
-					</h1>
+					</h2>
 					<div className="absolute top-0 left-0 w-full h-full bg-primary/40" />
 				</div>
 				<div className="h-full w-full xl:px-20 lg:px-14 md:px-10 px-6 lg:mt-16 md:mt-14 sm:mt-12 mt-10">
@@ -128,13 +128,13 @@ const ContactUs = () => {
 						onSubmit={sendEmail}
 						ref={form}
 					>
-						<h1
+						<h2
 							data-aos="fade-up"
 							data-aos-anchor-placement="center-bottom"
 							className="font-PlayFair text-primary w-full text-center lg:text-[4.5rem] md:text-[3.5rem] sm:text-[3rem] text-[3.2rem] sm:leading-normal sm:mb-0 mb-2 leading-tight"
 						>
 							Get In Touch
-						</h1>
+						</h2>
 						<p
 							data-aos="fade-up"
 							data-aos-delay="200"
@@ -193,7 +193,7 @@ const ContactUs = () => {
 									}`}
 									viewBox="0 0 16 16"
 								>
-									<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+									<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h20Z" />
 								</svg>
 								{nameError ? (
 									<p className="flex items-center gap-1 pt-1 text-sm font-medium text-red-600">
@@ -245,7 +245,7 @@ const ContactUs = () => {
 									}`}
 									viewBox="0 0 16 16"
 								>
-									<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+									<path d="M0 4a2 2 0 0 1 2-2h22a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h22a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
 								</svg>
 								{emailError ? (
 									<p className="flex items-center gap-1 pt-1 text-sm font-medium text-red-600">
@@ -308,7 +308,7 @@ const ContactUs = () => {
 									className="bi bi-camera absolute top-4 left-3 text-primary"
 									viewBox="0 0 16 16"
 								>
-									<path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+									<path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5h24a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h22a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
 									<path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
 								</svg>
 							</div>

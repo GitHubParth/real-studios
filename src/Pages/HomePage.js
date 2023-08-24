@@ -43,12 +43,12 @@ const HomePage = () => {
 				{/* Info */}
 				<div className="w-full h-full absolute top-0 left-0 flex items-center justify-center bg-halfTransparent">
 					<div className="h-full md:w-[75%] w-[85%] flex flex-col items-start justify-center gap-6 text-white">
-						<h1
+						<h2
 							data-aos="fade-up"
 							className="lg:text-[4rem] sm:text-[3rem] text-[2.4rem] lg:leading-[4rem] sm:leading-[3rem] leading-[2.5rem] md:max-w-[70%] sm:max-w-[80%] w-full font-PlayFair"
 						>
 							Let's create moments to remember
-						</h1>
+						</h2>
 						<p
 							data-aos="fade-up"
 							data-aos-delay="300"
@@ -78,12 +78,12 @@ const HomePage = () => {
 				{/* About */}
 				<div className="flex flex-col sm:flex-row items-center justify-center w-full group/about">
 					<div className="sm:w-1/2 w-full xl:px-20 lg:px-14 md:px-10 px-6 sm:py-0 pt-8 pb-10">
-						<h1
+						<h2
 							data-aos="zoom-out-up"
 							className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[3rem] sm:text-left text-center w-full font-PlayFair xl:mb-5 md:mb-2 sm:mb-0 mb-2 text-primary"
 						>
 							About Me
-						</h1>
+						</h2>
 						<p
 							data-aos="zoom-out-up"
 							className="xl:text-xl lg:text-lg md:text-sm sm:text-xs text-sm font-Inter text-gray-500"
@@ -116,19 +116,19 @@ const HomePage = () => {
 
 				{/* Achievements */}
 				<div className="flex flex-col items-center justify-center md:mt-20 mt-14 xl:px-20 lg:px-14 md:px-10 px-6">
-					<h1 className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[2.6rem] font-PlayFair mb-6 text-primary">
+					<h2 className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[2.6rem] font-PlayFair mb-6 text-primary">
 						Achievements
-					</h1>
+					</h2>
 					<div className="flex md:flex-row flex-col items-center md:items-end justify-center lg:gap-6 md:gap-4 gap-6 w-full">
 						{/* Exp */}
-						<div data-aos="zoom-in-right" data-aos-offset="200" className="xl:w-[350px] lg:w-[300px] sm:w-[400px] sm:mx-0 mx-auto w-full bg-[#D4E8DB] hover:bg-primary group/ach1 lg:h-56 md:h-48 h-fit md:py-0 py-8 px-6 md:px-4 flex items-center justify-center flex-col gap-2 shadow-lg !transition-all !duration-300 hover:!scale-105 md:hover:-translate-y-4 hover:-translate-y-2  shadow-secondary/30">
-							<p className="lg:text-4xl text-3xl font-Inter text-primary text-center group-hover/ach1:text-white">
+						<div data-aos="zoom-in-right" data-aos-offset="200" className="xl:w-[350px] lg:w-[300px] sm:w-[400px] sm:mx-0 mx-auto w-full bg-[#D4E8DB] hover:bg-primary group/ach2 lg:h-56 md:h-48 h-fit md:py-0 py-8 px-6 md:px-4 flex items-center justify-center flex-col gap-2 shadow-lg !transition-all !duration-300 hover:!scale-105 md:hover:-translate-y-4 hover:-translate-y-2  shadow-secondary/30">
+							<p className="lg:text-4xl text-3xl font-Inter text-primary text-center group-hover/ach2:text-white">
 								<CountUp start={0} end={7} duration={2} />+
 							</p>
 							<p className="xl:text-xl lg:text-lg font-Inter font-semibold text-secondary text-center">
 								Years of Experience
 							</p>
-							<p className="lg:text-sm text-xs font-Inter text-center group-hover/ach1:text-gray-400">
+							<p className="lg:text-sm text-xs font-Inter text-center group-hover/ach2:text-gray-400">
 								Experienced photographer with years of capturing moments and telling stories through the lens.
 							</p>
 						</div>
@@ -165,9 +165,9 @@ const HomePage = () => {
 
 			{/* Portfolio Section */}
 			<section className="w-full h-full flex flex-col items-center justify-center mt-20 md:mb-20 mb-14 lg:px-20 md:px-14 sm:px-10 px-6 relative">
-				<h1 className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[3rem] font-PlayFair mb-9 text-primary text-center leading-none">
+				<h2 className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[3rem] font-PlayFair mb-9 text-primary text-center leading-none">
 					Projects
-				</h1>
+				</h2>
 
 				{/* Recent Projects */}
 				<div className="grid sm:grid-cols-3 lg:gap-8 sm:gap-3 gap-5 md:w-auto w-full">
@@ -311,12 +311,12 @@ const HomePage = () => {
 				className="w-full max-w-screen h-full flex flex-col items-center justify-center md:px-20 sm:px-16 px-20 sm:pb-20 !pb-12 relative"
 				id="review"
 			>
-				<h1 className="xl:text-[4rem] md:text-[3rem] sm:text-[2.5rem] text-[2.8rem] font-PlayFair lg:-mb-8 -mb-4 text-primary">
+				<h2 className="xl:text-[4rem] md:text-[3rem] sm:text-[2.5rem] text-[2.8rem] font-PlayFair lg:-mb-8 -mb-4 text-primary">
 					Customer
-				</h1>
-				<h1 className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[2.6rem] font-Inter md:mb-6 mb-3 text-primary">
+				</h2>
+				<h2 className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[2.6rem] font-Inter md:mb-6 mb-3 text-primary">
 					Testimonials
-				</h1>
+				</h2>
 
 				{/* Swiper */}
 				<div

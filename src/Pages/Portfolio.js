@@ -30,9 +30,9 @@ const Portfolio = () => {
 			>
 				<div className="flex flex-col sm:flex-row-reverse items-center justify-center w-full group/about">
 					<div className="sm:w-1/2 w-full xl:px-20 lg:px-14 md:px-10 px-6 sm:py-0 pt-5 sm:pb-10 pb-5">
-						<h1 className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[3rem] sm:text-left text-center w-full font-PlayFair xl:mb-5 md:mb-2 sm:mb-0 mb-2 text-primary">
+						<h2 className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[3rem] sm:text-left text-center w-full font-PlayFair xl:mb-5 md:mb-2 sm:mb-0 mb-2 text-primary">
 							Portfolio
-						</h1>
+						</h2>
 						<p className="xl:text-xl lg:text-lg md:text-sm sm:text-xs text-sm font-Inter text-gray-500">
 							Greetings to my portfolio! I'm a passionate
 							photographer with a keen eye for detail and a love
