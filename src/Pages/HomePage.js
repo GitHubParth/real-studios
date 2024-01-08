@@ -169,7 +169,7 @@ const HomePage = () => {
 			</section>
 
 			{/* Portfolio Section */}
-			<section className="w-full h-full flex flex-col items-center justify-center mt-20 md:mb-20 mb-14 lg:px-20 md:px-14 sm:px-10 px-6 relative">
+			<section className="w-full h-full flex flex-col items-center justify-center mt-20 md:mb-16 mb-10 lg:px-20 md:px-14 sm:px-10 px-6 relative">
 				<h2 className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[3rem] font-PlayFair mb-9 text-primary text-center leading-none">
 					Projects
 				</h2>
