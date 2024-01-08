@@ -37,7 +37,7 @@ const HomePage = () => {
 					muted
 					autoPlay
 				>
-					<source src="https://github.com/GitHubParth/real-studios/blob/main/public/hero-video.mp4?raw=true" />
+					<source src="https://github.com/GitHubParth/real-studios/blob/main/public/video/hero-video.mp4?raw=true" />
 				</video>
 
 				{/* Info */}
