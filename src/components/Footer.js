@@ -22,7 +22,7 @@ const Footer = () => {
 					<div className="flex items-center justify-center gap-10 w-full">
 						<Link
 							target="_blank"
-							to="https://wa.me/9773238641?text=Hi%20there!%20We're%20looking%20for%20a%20photographer%20for%20our%20upcoming%20photo%20shoot.%20Are%20you%20available?"
+							to="https://wa.me/9773238641?text=Hi%20there!%20I'm%20Parth,%20and%20we're%20looking%20for%20a%20photographer%20for%20an%20upcoming%20photo%20shoot.%20Are%20you%20available?"
 						>
 							<button className="text-secondary text-xl flex items-center justify-center gap-2 group/cta drop-shadow-2xl font-Inter hover:scale-110 transition-all duration-300">
 								<svg
@@ -81,7 +81,7 @@ const Footer = () => {
 							</Link> */}
 							<Link
 								target="_blank"
-								to="https://wa.me/9773238641?text=Hi%20there!%20We're%20looking%20for%20a%20photographer%20for%20our%20upcoming%20photo%20shoot.%20Are%20you%20available?"
+								to="https://wa.me/9773238641?text=Hi%20there!%20I'm%20Parth,%20and%20we're%20looking%20for%20a%20photographer%20for%20an%20upcoming%20photo%20shoot.%20Are%20you%20available?"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
