@@ -37,7 +37,7 @@ const HomePage = () => {
 					muted
 					autoPlay
 				>
-					<source src="https://github.com/GitHubParth/real-studios/blob/main/public/video/hero-video.mp4?raw=true" />
+					<source src="https://github.com/GitHubParth/real-studios/blob/main/public/hero-video.mp4?raw=true" />
 				</video>
 
 				{/* Info */}
@@ -50,8 +50,8 @@ const HomePage = () => {
 							Let's create moments to remember
 						</h2>
 						<p
-							data-aos="fade-up"
-							data-aos-delay="300"
+							// data-aos="fade-up"
+							// data-aos-delay="300"
 							className="md:text-xl text-sm sm:max-w-[60%] font-light w-full"
 						>
 							Are you searching for a passionate, caring, and
@@ -59,11 +59,11 @@ const HomePage = () => {
 							freelance photographer based in Ahmedabad.
 						</p>
 						<Link
-							data-aos="fade-up"
-							data-aos-delay="600"
-							data-aos-anchor-placement="top-bottom"
+							// data-aos="fade-up"
+							// data-aos-delay="600"
+							// data-aos-anchor-placement="top-bottom"
 							target="_black"
-							to="https://wa.me/9773238641?text=Hi%20there!%20I'm%20Parth,%20and%20we're%20looking%20for%20a%20photographer%20for%20an%20upcoming%20photo%20shoot.%20Are%20you%20available?"
+							to="https://wa.me/9773238641?text=Hi%20there!%20We're%20looking%20for%20a%20photographer%20for%20an%20upcoming%20photo%20shoot.%20Are%20you%20available?"
 						>
 							<button className="bg-primary btn-cta md:p-4 p-3 md:px-6 px-4 md:text-xl text-sm text-white hover:scale-110 hover:translate-x-3 transition-all duration-300 shadow-green-2xl">
 								Book Now
@@ -79,13 +79,13 @@ const HomePage = () => {
 				<div className="flex flex-col sm:flex-row items-center justify-center w-full group/about">
 					<div className="sm:w-1/2 w-full xl:px-20 lg:px-14 md:px-10 px-6 sm:py-0 pt-8 pb-10">
 						<h2
-							data-aos="zoom-out-up"
+							// data-aos="zoom-out-up"
 							className="xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.3rem] text-[3rem] sm:text-left text-center w-full font-PlayFair xl:mb-5 md:mb-2 sm:mb-0 mb-2 text-primary"
 						>
 							About Me
 						</h2>
 						<p
-							data-aos="zoom-out-up"
+							// data-aos="zoom-out-up"
 							className="xl:text-xl lg:text-lg md:text-sm sm:text-xs text-sm font-Inter text-gray-500"
 						>
 							Myself
@@ -102,8 +102,8 @@ const HomePage = () => {
 						</p>
 					</div>
 					<div
-						data-aos="fade-up"
-						data-aos-offset="0"
+						// data-aos="fade-up"
+						// data-aos-offset="0"
 						className="sm:w-1/2 w-full sm:px-0 px-6 sm:h-full h-auto overflow-hidden"
 					>
 						<img
@@ -121,7 +121,8 @@ const HomePage = () => {
 					</h2>
 					<div className="flex md:flex-row flex-col items-center md:items-end justify-center lg:gap-6 md:gap-4 gap-6 w-full">
 						{/* Exp */}
-						<div data-aos="zoom-in-right" data-aos-offset="200" className="xl:w-[350px] lg:w-[300px] sm:w-[400px] sm:mx-0 mx-auto w-full bg-[#D4E8DB] hover:bg-primary group/ach2 lg:h-56 md:h-48 h-fit md:py-0 py-8 px-6 md:px-4 flex items-center justify-center flex-col gap-2 shadow-lg !transition-all !duration-300 hover:!scale-105 md:hover:-translate-y-4 hover:-translate-y-2  shadow-secondary/30">
+						{/* data-aos="zoom-in-right" data-aos-offset="200" */}
+						<div className="xl:w-[350px] lg:w-[300px] sm:w-[400px] sm:mx-0 mx-auto w-full bg-[#D4E8DB] hover:bg-primary group/ach2 lg:h-56 md:h-48 h-fit md:py-0 py-8 px-6 md:px-4 flex items-center justify-center flex-col gap-2 shadow-lg !transition-all !duration-300 hover:!scale-105  shadow-secondary/30">
 							<p className="lg:text-4xl text-3xl font-Inter text-primary text-center group-hover/ach2:text-white">
 								<CountUp start={0} end={7} duration={2} />+
 							</p>
@@ -133,7 +134,8 @@ const HomePage = () => {
 							</p>
 						</div>
 						{/* Record */}
-						<div data-aos="zoom-in-up" data-aos-offset="150" className="group/guinness relative flip xl:w-[350px] lg:w-[300px] sm:w-[400px] sm:mx-0 mx-auto w-full bg-[#D4E8DB] hover:bg-primary lg:h-68 md:h-60 h-full hover:lg:h-68 hover:md:h-60 hover:h-[200px] md:py-0 py-8 px-6 md:px-4 flex items-center justify-center gap-2 shadow-lg !transition-transform !duration-300 hover:!scale-105 md:hover:-translate-y-4 shadow-secondary/30" >
+						{/* data-aos="zoom-in-up" data-aos-offset="150" */}
+						<div className="group/guinness relative flip xl:w-[350px] lg:w-[300px] sm:w-[400px] sm:mx-0 mx-auto w-full bg-[#D4E8DB] hover:bg-primary lg:h-68 md:h-60 h-full hover:lg:h-68 hover:md:h-60 hover:h-[200px] md:py-0 py-8 px-6 md:px-4 flex items-center justify-center gap-2 shadow-lg !transition-transform !duration-300 hover:!scale-105 shadow-secondary/30" >
 							<div className="flex items-center justify-center flex-col gap-2 group-hover/guinness:scale-0 overflow-hidden">
 								<p className="lg:text-4xl text-3xl font-Inter text-primary text-center group-hover/guinness:text-white">
 									<CountUp start={0} end={3000} duration={3} />+
@@ -148,7 +150,8 @@ const HomePage = () => {
 							<img src="https://ik.imagekit.io/parthpadhiar/images/guinness-img.png" className="md:w-[90%] mx-auto w-[200px] md:h-[90%] h-[200px] absolute top-[50%] md:translate-x-0 translate-x-[-50%] md:top-[5%] left-[50%] md:translate-y-0 translate-y-[-50%] md:left-[5%] transition-all duration-300 group-hover/guinness:scale-100 scale-0 object-cover object-center" alt="Guinness World Record for Real Studios" />
 						</div>
 						{/* Clients */}
-						<div data-aos="zoom-in-left" data-aos-offset="200" className="xl:w-[350px] lg:w-[300px] sm:w-[400px] sm:mx-0 mx-auto w-full bg-[#D4E8DB] hover:bg-primary group/ach3 lg:h-56 md:h-48 h-fit md:py-0 py-8 px-6 md:px-4 flex items-center justify-center flex-col gap-2 shadow-lg !transition-all !duration-300 hover:!scale-105 md:hover:-translate-y-4 hover:-translate-y-2  shadow-secondary/30" >
+						{/* data-aos="zoom-in-left" data-aos-offset="200" */}
+						<div className="xl:w-[350px] lg:w-[300px] sm:w-[400px] sm:mx-0 mx-auto w-full bg-[#D4E8DB] hover:bg-primary group/ach3 lg:h-56 md:h-48 h-fit md:py-0 py-8 px-6 md:px-4 flex items-center justify-center flex-col gap-2 shadow-lg !transition-all !duration-300 hover:!scale-105 shadow-secondary/30" >
 							<p className="lg:text-4xl text-3xl font-Inter text-primary text-center group-hover/ach3:text-white">
 								<CountUp start={0} end={5000} duration={3} />+
 							</p>
@@ -173,9 +176,9 @@ const HomePage = () => {
 				<div className="grid sm:grid-cols-3 lg:gap-8 sm:gap-3 gap-5 md:w-auto w-full">
 					{projects.map((proj, i) => (
 						<div
-							data-aos="fade-up-right"
+							// data-aos="fade-up-right"
 							key={i}
-							className="cursor-pointer overflow-hidden flex flex-col items-center justify-center w-full h-full group/proj border border-transparent hover:shadow-xl transition-all duration-500 hover:border-primary"
+							className="cursor-pointer overflow-hidden flex flex-col items-center justify-center w-full h-full min-h-[470px] group/proj border border-transparent hover:shadow-xl transition-all duration-500 hover:border-primary"
 							onClick={() => {
 								setImgCollIndex(i);
 								let evnt =
@@ -184,10 +187,10 @@ const HomePage = () => {
 								mySwiperInner.slideTo(0, 1, true);
 							}}
 						>
-							<div className="lg:w-[370px] w-full xl:h-[500px] lg:h-[400px] h-[300px] overflow-hidden">
+							<div className="lg:w-[370px] w-full xl:h-[500px] h-[400px] overflow-hidden">
 								<img
 									src={proj.img}
-									className="w-full h-full object-cover object-center lg:group-hover/proj:scale-110 group-hover/proj:scale-110 transition-all duration-500"
+									className="w-full h-full !min-h-[400px] object-cover object-center lg:group-hover/proj:scale-110 group-hover/proj:scale-110 transition-all duration-500"
 									alt=""
 								/>
 							</div>
@@ -320,7 +323,7 @@ const HomePage = () => {
 
 				{/* Swiper */}
 				<div
-					data-aos="zoom-out"
+					// data-aos="zoom-out"
 					className="max-w-[1400px] w-full md:h-[400px] sm:h-[360px] h-[330px] relative swiper-div"
 				>
 					<button
@@ -383,6 +386,7 @@ const HomePage = () => {
 									category={review.category}
 									ratings={review.ratings}
 									objectPos={review.objectPos}
+									cardNum={i}
 								/>
 							</SwiperSlide>
 						))}
