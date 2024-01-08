@@ -36,6 +36,8 @@ const HomePage = () => {
 					loop
 					muted
 					autoPlay
+					playsInline
+					poster="https://ik.imagekit.io/parthpadhiar/images/video-thumbnail.png"
 				>
 					<source src="https://github.com/GitHubParth/real-studios/blob/main/public/video/hero-video.mp4?raw=true" />
 				</video>
